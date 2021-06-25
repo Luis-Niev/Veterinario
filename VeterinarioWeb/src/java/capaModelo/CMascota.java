@@ -6,13 +6,18 @@
 package capaModelo;
 
 /**
- * @date 
+ * @date 24/06/2021
  * @author Alejandro
- * @descripcion
- * @param 
+ * @descripcion  Clase de tipo catalogo que almacena los datos de las mascotas
+ * 
  */
 public class CMascota {
 
+    public CMascota() {
+    }
+
+    
+    
     private int id;
     private String nombreD;
     private long telefono;
@@ -24,6 +29,24 @@ public class CMascota {
     private float tamano;
     private float peso;
 
+    
+    public void crearMascota(){
+        
+    }
+    
+    public void consultarMascota(){
+        
+    }
+    
+    public void actualizarMascota(){
+        
+    }
+    
+    public void eliminarMascota(){
+        
+    }
+    
+    
     public int getId() {
         return id;
     }

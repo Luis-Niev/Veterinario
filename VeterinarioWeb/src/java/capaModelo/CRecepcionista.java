@@ -6,14 +6,26 @@
 package capaModelo;
 
 /**
- *
+ * @date 24/06/2021
  * @author Alejandro
+ * @descripcion  Clase de tipo catalogo que almacena los datos del recepcionista
  */
 public class CRecepcionista {
+
+    public CRecepcionista() {
+    }
+    
+    
+    
     private int id;
     private String usuario;
     private String contrasena;
 
+    
+    public void autenticarUsuario(){
+        
+    }
+    
     public int getId() {
         return id;
     }

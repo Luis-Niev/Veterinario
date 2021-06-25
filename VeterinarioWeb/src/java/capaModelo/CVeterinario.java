@@ -6,16 +6,37 @@
 package capaModelo;
 
 /**
- *
+ * @date 24/06/2021
  * @author Alejandro
+ * @descripcion  Clase de tipo catalogo que almacena los datos de los veterinarios
  */
 public class CVeterinario {
+
+    public CVeterinario() {
+    }
+    
+    
+    
     private int id;
     private String nombre;
     private String direccion;
     private String cedulaP;
     private long telefono;
 
+    
+    public void crearVeterinario(){
+        
+    }
+    public void  consultarUsuario(){
+        
+    }
+    public void actualizarVeterinario(){
+        
+    }
+    public void eliminarVeterinario(){
+        
+    }
+    
     public int getId() {
         return id;
     }
