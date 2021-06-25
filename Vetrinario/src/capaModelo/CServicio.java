@@ -6,15 +6,35 @@
 package capaModelo;
 
 /**
- *
+ * @date 24/06/2021
  * @author Alejandro
+ * @descripcion  Clase de tipo catalogo que almacena los datos de los servicios
  */
 public class CServicio {
+
+    public CServicio() {
+    }
+    
+    
     
     private int id;
     private String nombre;
     private float costo;
 
+    public void crearServicio(){
+        
+    }
+    public void consultarServicio(){
+        
+    }
+    public void actualizarServicio(){
+        
+    }
+    public void eliminarServicio(){
+        
+    }
+    
+    
     public int getId() {
         return id;
     }
